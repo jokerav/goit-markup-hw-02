@@ -2,7 +2,7 @@
 #2196F3 синий в лого
 #000000 черный в лого
 #2F303A чёрный в герое
-#FFFFFF белый
+#FFFFFF белый фон основной
 #FFFFFF99 белый прозрачность 60%
 #212121 цвет заголовков черный
 #757575 серый основной цвет текста
@@ -17,6 +17,39 @@ font-family: 'Roboto', sans-serif;
 
  */
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 3%;
+}
+
+/* "утилита" для сброса маркеров со списков */
+.list {
+  list-style: none;
+}
+
+/* панель навигации */
+.site-nav a {
+  color: #212121;
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.site-nav a:hover,
+.site-nav a:focus,
+.contacts a:hover,
+.contacts a:focus {
+  color: #2196f3;
+}
+
+/* контакты */
+.contacts {
+  line-height: 1.14;
+  letter-spacing: 2%;
+}
+.contacts a {
   color: #757575;
 }
