@@ -1,11 +1,13 @@
 /* Палитра
 #2196F3 синий в лого
 #000000 черный в лого
+#2F303A чёрный в герое
 #FFFFFF белый
 #FFFFFF99 белый прозрачность 60%
-#212121 основной черный
-#757575 серый основной
+#212121 цвет заголовков черный
+#757575 серый основной цвет текста
 F5F4FA серый на кнопках
+#E5E5E5 фон
 
 */
 /* CSS rules to specify families
@@ -14,3 +16,7 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 
  */
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+}
