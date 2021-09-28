@@ -20,21 +20,18 @@ font-family: 'Roboto', sans-serif;
 :root {
   --background-primary: #ffffff;
   --background-white-80: #ffffff99;
-  --background-secondary: #E5E5E5;
-  --background-hero:  2F303A;
-  --accent: #2196F3;
+  --background-secondary: #e5e5e5;
+  --background-hero: 2f303a;
+  --accent: #2196f3;
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --logo: #000000;
-  --button-color: #F5F4FA;
-  
-
-  --
+  --button-color: #f5f4fa;
 }
 body {
   background-color: var(--background-primary);
   color: var(--primary-text-color);
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -76,10 +73,22 @@ h5 {
 }
 
 /* Секция герой */
-.hero{
-  background-color: var(--background-hero);
+.hero {
 }
 
-.hero h1{
+.hero h1 {
+  background-color: var(--background-hero);
   color: var(--background-primary);
+}
+.hero-btn {
+  background-color: var(--accent);
+  color: var(--background-primary);
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 700;
+  font-style: bold;
+  letter-spacing: 6%;
+  width: 200;
+  height: 50;
+  border-radius: 4px;
 }
