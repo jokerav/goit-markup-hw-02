@@ -16,9 +16,24 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 
  */
+/* CSS переменные */
+:root {
+  --background-primary: #ffffff;
+  --background-white-80: #ffffff99;
+  --background-secondary: #E5E5E5;
+  --background-hero: 2F303A;
+  --accent: #2196F3;
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --logo: #000000;
+  --button-color: #F5F4FA;
+  
+
+  --
+}
 body {
-  background-color: #ffffff;
-  color: #757575;
+  background-color: var(--background-primary);
+  color: var(--primary-text-color);
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -36,11 +51,11 @@ h2,
 h3,
 h4,
 h5 {
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 /* панель навигации */
 .site-nav a {
-  color: #212121;
+  color: var(--secondary-text-color);
   font-style: Medium;
   font-size: 14px;
   line-height: 1.14;
@@ -49,14 +64,13 @@ h5 {
 .site-nav a:focus,
 .contacts a:hover,
 .contacts a:focus {
-  color: #2196f3;
+  color: var(--accent);
 }
 
 /* контакты */
 .contacts {
-  line-height: 1.14;
   letter-spacing: 2%;
 }
 .contacts a {
-  color: #757575;
+  color: var(--primary-text-color);
 }
