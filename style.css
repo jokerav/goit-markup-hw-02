@@ -86,9 +86,24 @@ h5 {
   font-size: 16px;
   line-height: 1.875;
   font-weight: 700;
-  font-style: bold;
   letter-spacing: 6%;
   width: 200;
   height: 50;
   border-radius: 4px;
+}
+/* кнопки-фильтры в портфолио */
+.portfolio-btn {
+  width: 130px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: var(--button-color);
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.25;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent);
+  color: var(--background-primary);
 }
