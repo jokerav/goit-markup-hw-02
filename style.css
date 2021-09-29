@@ -107,3 +107,10 @@ h5 {
   background-color: var(--accent);
   color: var(--background-primary);
 }
+/* адрес футере */
+.footer-adress {
+  color: var(--background-primary);
+}
+.footer-link {
+  color: var(--background-white-80);
+}
