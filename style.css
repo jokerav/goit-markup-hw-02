@@ -74,6 +74,7 @@ h5 {
 
 /* Секция герой */
 .hero {
+  font-style: bold;
 }
 
 .hero h1 {
@@ -90,6 +91,16 @@ h5 {
   width: 200;
   height: 50;
   border-radius: 4px;
+}
+/* Заголовки секций */
+.section-title {
+  color: var(--secondary-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+}
+.team-item-title {
+  font-size: 16;
+  line-height: 1.1875;
 }
 /* кнопки-фильтры в портфолио */
 .portfolio-btn {
