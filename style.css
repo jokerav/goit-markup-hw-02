@@ -102,6 +102,12 @@ h5 {
   font-size: 16;
   line-height: 1.1875;
 }
+/* Особенности */
+.feachers h3 {
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 /* кнопки-фильтры в портфолио */
 .portfolio-btn {
   width: 130px;
