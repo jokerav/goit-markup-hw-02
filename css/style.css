@@ -72,6 +72,7 @@ h5 {
 }
 .menu-link:hover,
 .menu-link:focus,
+.menu-link:active,
 .contakt-link:hover,
 .contakt-link:focus,
 .footer-link:focus,
@@ -185,7 +186,8 @@ h5 {
   cursor: pointer;
 }
 .portfolio-btn:hover,
-.portfolio-btn:focus {
+.portfolio-btn:focus,
+.portfolio-btn:active {
   background-color: var(--accent);
   color: var(--background-primary);
 }
