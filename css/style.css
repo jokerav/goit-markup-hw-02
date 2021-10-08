@@ -78,6 +78,9 @@ h5 {
 .footer-link:hover {
   color: var(--accent);
 }
+.current {
+  color: var(--accent);
+}
 
 /* контакты */
 /* .contacts {
