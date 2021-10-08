@@ -117,6 +117,8 @@ h5 {
   min-width: 200px;
   min-height: 50px;
   cursor: pointer;
+  border-radius: 4px;
+  border: none;
 }
 .hero-btn:focus,
 .hero-btn:hover {
@@ -187,6 +189,12 @@ h5 {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+.portfolio-btn-active {
+  background-color: var(--accent);
+  color: var(--background-primary);
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
